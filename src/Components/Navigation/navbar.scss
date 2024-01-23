@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* navbar.scss */
+
+.navbar {
+  ul {
+    position: relative;
+    overflow: hidden;
+
+    .slider {
+      position: absolute;
+      bottom: 0;
+      height: 2px;
+      background-color: #c247a2;
+      transition: left 0.3s ease;
+    }
+
+    &.active-0 .slider {
+      left: 0;
+      width: 33.33%;
+    }
+
+    &.active-1 .slider {
+      left: 33.33%;
+      width: 33.33%;
+    }
+
+    &.active-2 .slider {
+      left: 66.66%;
+      width: 33.33%;
+    }
+  }
+  .button{
+    background-color: #c247a2;
+  }
+}
