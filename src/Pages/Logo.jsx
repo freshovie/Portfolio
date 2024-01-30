@@ -1,15 +1,15 @@
 import React from "react";
 import "./style.scss";
-import { Img1, Img2, Img3 } from "../assets";
+import { Cover4 } from "../assets/index";
 
-const Aboutme = () => {
+const Logo = () => {
   return (
     <React.Fragment>
-      <div className="about-container">
+      <div className="logo">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-1"></div>
           <div className="col-sm-12 col-md-12 col-lg-10">
-            <div className="growth d-flex">
+            <div className="growth">
               <div className="colsm">
                 <h5
                   style={{
@@ -19,7 +19,7 @@ const Aboutme = () => {
                     marginBottom: "20px",
                   }}
                 >
-                  A BIT ABOUT ME
+                  PLANT IDENTIFICATION APP
                 </h5>
                 <h3
                   style={{
@@ -28,7 +28,7 @@ const Aboutme = () => {
                     marginBottom: "20px",
                   }}
                 >
-                  I am a UI/UX designer who is passionate about creating{" "}
+                  Lorem ipsum dolor sit amet, consectetur{" "}
                   <span
                     style={{
                       color: "#e3e4e6",
@@ -36,17 +36,34 @@ const Aboutme = () => {
                       fontSize: "semibold",
                     }}
                   >
-                    beautiful and joyful digital experiences. Besides design, I
-                    love music, games and travelling.
+                    adipiscing elit. Ultrices lorem non feugiat egestas amet.
                   </span>
                 </h3>
+                <p
+                  style={{
+                    color: "#aaabac",
+                    fontWeight: "200",
+                    marginBottom: "20px",
+                  }}
+                >
+                  Mobile App
+                </p>
+                <button
+                  style={{
+                    backgroundColor:
+                      "linear-gradient(to bottom, #3498db, #e74c3c)",
+                    borderRadius: "10px",
+                    borderColor: "#e3e4e6",
+                    color: "#e3e4e6",
+                    border: "1px solid block",
+                    padding: "8px 16px 8px 8px",
+                  }}
+                >
+                  VIEW WORK &gt;
+                </button>
               </div>
-              <div className="imgdivthree d-flex">
-                <img src={Img1} alt="" className="w-100" />
-                <div className="split">
-                  <img src={Img2} alt="" className="w-100" />
-                  <img src={Img3} alt="" className="w-100" />
-                </div>
+              <div className="imgdiv">
+                <img src={Cover4} alt="" className="w-100" />
               </div>
             </div>
           </div>
@@ -57,4 +74,4 @@ const Aboutme = () => {
   );
 };
 
-export default Aboutme;
+export default Logo;

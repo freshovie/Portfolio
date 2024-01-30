@@ -1,5 +1,5 @@
 import './App.css';
-import './hey.scss'
+import './index.scss'
 import Display from './Components/Display';
 
 function App() {

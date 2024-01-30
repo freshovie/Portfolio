@@ -3,13 +3,12 @@ import "./style.scss";
 
 const Client = () => {
   return (
-    <div>
-      <div className="quotes">
+    <React.Fragment>
+      <div className="clients">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-1"></div>
           <div className="col-sm-12 col-md-12 col-lg-10">
-            <div className="row">
-            <div className="col-sm-12 col-md-12 col-lg-6">
+            <div className="speed">
               <p
                 style={{
                   fontSize: "30px",
@@ -24,13 +23,11 @@ const Client = () => {
                 </span>
               </p>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-6"></div>
-            </div>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 

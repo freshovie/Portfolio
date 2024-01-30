@@ -6,11 +6,11 @@ import { Logo } from "../../assets";
 const Navbar = () => {
   return (
     <React.Fragment>
-      <div className="row fixed-top">
+      <div className="row">
         <div className="col-sm-12 col-md-12 col-lg-1"></div>
         <div className="col-sm-12 col-md-12 col-lg-10">
-          <nav className="navbar navbar-expand-lg navbar-light navbar-fixed-top">
-            <a className="navbar-brand" href="#">
+          <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a className="navbar-brand" href="h">
               <img src={Logo} alt="" />
             </a>
             <button
@@ -19,10 +19,13 @@ const Navbar = () => {
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent"
-              aria-expanded="true"
+              aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span
+                className="navbar-toggler-icon"
+                style={{ color: "white", textColor: "white" }}
+              ></span>
             </button>
 
             <div

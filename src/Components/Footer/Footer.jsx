@@ -8,13 +8,11 @@ import { FaBehance, FaDribbble, FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
     <React.Fragment>
-      <center>
         <div className="footer">
           <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-1"></div>
           <div className="col-sm-12 col-md-12 col-lg-10">
-            <div className="col-sm-12 col-md-12 col-lg-4"></div>
-            <div className="col-sm-12 col-md-12 col-lg-4">
+            <center>
               <h2 style={{ color: "#7d7e7f", marginBottom: "10px" }}>
                 Get{" "}
                 <span
@@ -46,14 +44,11 @@ const Footer = () => {
                   Srinivas DeZign
                 </span>
               </p>
+              </center>
             </div>
-            <div className="col-sm-12 col-md-12 col-lg-4"></div>
-
-          </div>
           <div className="col-sm-12 col-md-12 col-lg-1"></div>
           </div>
         </div>
-      </center>
     </React.Fragment>
   );
 };

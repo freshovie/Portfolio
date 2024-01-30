@@ -4,7 +4,7 @@ import { Cover1 } from "../assets/index";
 
 const Work = () => {
   return (
-    <div>
+    <React.Fragment>
       <div className="work">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-1"></div>
@@ -13,22 +13,28 @@ const Work = () => {
               Selected{" "}
               <span style={{ color: "#e3e4e6", fontWeight: "600" }}>Works</span>
             </h2>
-            <div className="row" style={{ display: "flex", alignItems: "baseline"}}>
-              <div className="col-sm-12 col-md-12 col-lg-6">
-                <img src={Cover1} alt="" />
+            <div className="growth">
+              <div className="imgdiv">
+                <img src={Cover1} alt="" className="w-100" />
               </div>
-              <div className="col-sm-12 col-md-12 col-lg-6" style={{ width: "100%"}}>
+              <div className="colsm">
                 <h5
                   style={{
                     fontWeight: "600",
                     color: "#e3e4e6",
                     fontSize: "semibold",
-                    marginBottom: "20px"
+                    marginBottom: "20px",
                   }}
                 >
                   Real estate Template
                 </h5>
-                <h3 style={{ width: "80%", fontSize: "30px", marginBottom: "20px" }}>
+                <h3
+                  style={{
+                    width: "80%",
+                    fontSize: "30px",
+                    marginBottom: "20px",
+                  }}
+                >
                   Lorem ipsum dolor sit amet, consectetur{" "}
                   <span
                     style={{
@@ -40,7 +46,13 @@ const Work = () => {
                     adipiscing elit. Ultrices lorem non feugiat egestas amet.
                   </span>
                 </h3>
-                <p style={{ color: "#aaabac", fontWeight: "200" , marginBottom: "20px"}}>
+                <p
+                  style={{
+                    color: "#aaabac",
+                    fontWeight: "200",
+                    marginBottom: "20px",
+                  }}
+                >
                   Website Design
                 </p>
                 <button
@@ -53,7 +65,7 @@ const Work = () => {
                     padding: "8px 16px 8px 8px",
                   }}
                 >
-                  VIEW WORK {" "} &gt;
+                  VIEW WORK &gt;
                 </button>
               </div>
             </div>
@@ -61,7 +73,7 @@ const Work = () => {
           <div className="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 };
 
