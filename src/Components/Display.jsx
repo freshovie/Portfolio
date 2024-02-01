@@ -9,7 +9,7 @@ const Display = () => {
     <div>
      
        <Navbar />
-       
+
        <Home />
        <Client />
        <Brands />

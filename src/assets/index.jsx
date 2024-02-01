@@ -14,4 +14,6 @@ export const Img1 = require('./Cover.png');
 export const Img2 = require('./Cover1.png');
 export const Img3 = require('./Cover2.png');
 
+export const Background = require('./Ellipse 5.png');
+
 

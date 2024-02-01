@@ -6,9 +6,9 @@ import { Logo } from "../../assets";
 const Navbar = () => {
   return (
     <React.Fragment>
-      <div className="row">
-        <div className="col-sm-12 col-md-12 col-lg-1"></div>
-        <div className="col-sm-12 col-md-12 col-lg-10">
+      {/* <div className="row"> */}
+        {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+        {/* <div className="col-sm-12 col-md-12 col-lg-10"> */}
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <a className="navbar-brand" href="h">
               <img src={Logo} alt="" />
@@ -33,7 +33,7 @@ const Navbar = () => {
               id="navbarSupportedContent"
             >
               <ul
-                className="navbar-nav ml-auto d-flex w-25"
+                className="navbar-nav mr-0 d-flex w-25"
                 style={{ display: "flex", justifyContent: "space-evenly" }}
               >
                 <NavLink
@@ -69,9 +69,9 @@ const Navbar = () => {
               </ul>
             </div>
           </nav>
-        </div>
-        <div className="col-sm-12 col-md-12 col-lg-1"></div>
-      </div>
+        {/* </div> */}
+        {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+      {/* </div> */}
     </React.Fragment>
   );
 };

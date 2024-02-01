@@ -6,9 +6,9 @@ const Plant = () => {
   return (
     <React.Fragment>
       <div className="plant-container">
-        <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-          <div className="col-sm-12 col-md-12 col-lg-10">
+        {/* <div className="row"> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-10"> */}
             <div className="growth">
               <div className="colsm">
                 <h5
@@ -49,15 +49,7 @@ const Plant = () => {
                   Mobile App
                 </p>
                 <button
-                  style={{
-                    backgroundColor:
-                      "linear-gradient(to bottom, #3498db, #e74c3c)",
-                    borderRadius: "10px",
-                    borderColor: "#e3e4e6",
-                    color: "#e3e4e6",
-                    border: "1px solid block",
-                    padding: "8px 16px 8px 8px",
-                  }}
+                className="btn-grad"
                 >
                   VIEW WORK &gt;
                 </button>
@@ -66,9 +58,9 @@ const Plant = () => {
                 <img src={Cover2} alt="" className="w-100" />
               </div>
             </div>
-          </div>
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
+          {/* </div> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+        {/* </div> */}
       </div>
     </React.Fragment>
   );

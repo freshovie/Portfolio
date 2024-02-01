@@ -6,9 +6,9 @@ const Logo = () => {
   return (
     <React.Fragment>
       <div className="logo">
-        <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-          <div className="col-sm-12 col-md-12 col-lg-10">
+        {/* <div className="row"> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-10"> */}
             <div className="growth">
               <div className="colsm">
                 <h5
@@ -19,7 +19,7 @@ const Logo = () => {
                     marginBottom: "20px",
                   }}
                 >
-                  PLANT IDENTIFICATION APP
+                  LOGO ANIMATION
                 </h5>
                 <h3
                   style={{
@@ -46,16 +46,17 @@ const Logo = () => {
                     marginBottom: "20px",
                   }}
                 >
-                  Mobile App
+                  Animation
                 </p>
                 <button
                   style={{
                     backgroundColor:
-                      "linear-gradient(to bottom, #3498db, #e74c3c)",
+                      "transparent",
                     borderRadius: "10px",
                     borderColor: "#e3e4e6",
                     color: "#e3e4e6",
-                    border: "1px solid block",
+                    gap: "8px",
+                    border: "0px solid block",
                     padding: "8px 16px 8px 8px",
                   }}
                 >
@@ -66,9 +67,9 @@ const Logo = () => {
                 <img src={Cover4} alt="" className="w-100" />
               </div>
             </div>
-          </div>
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
+          {/* </div> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+        {/* </div> */}
       </div>
     </React.Fragment>
   );

@@ -6,9 +6,9 @@ const Aboutme = () => {
   return (
     <React.Fragment>
       <div className="about-container">
-        <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-          <div className="col-sm-12 col-md-12 col-lg-10">
+        {/* <div className="row"> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-10"> */}
             <div className="growth d-flex">
               <div className="colsm">
                 <h5
@@ -41,18 +41,20 @@ const Aboutme = () => {
                   </span>
                 </h3>
               </div>
-              <div className="imgdivthree d-flex">
-                <img src={Img1} alt="" className="w-100" />
-                <div className="split">
-                  <img src={Img2} alt="" className="w-100" />
-                  <img src={Img3} alt="" className="w-100" />
+              <div className="row w-100 align-items-center">
+                <div className="col p-0">
+                <img src={Img1} alt="" className="rockgod " />
+                </div>
+                <div className="split col">
+                  <img src={Img2} alt="" width='100%' className="mb-4" />
+                  <img src={Img3} alt="" width='100%' />
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-      </div>
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+        {/* </div> */}
+      {/* </div> */}
     </React.Fragment>
   );
 };

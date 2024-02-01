@@ -6,10 +6,10 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 const Home = () => {
   return (
     <React.Fragment>
-      <div className="home">
-        <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-          <div className="col-sm-12 col-md-12 col-lg-10">
+      {/* <div className="home"> */}
+        {/* <div className="row"> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-10"> */}
             <center>
               <h2
                 style={{
@@ -30,10 +30,10 @@ const Home = () => {
                 <FontAwesomeIcon icon={faChevronDown} />
               </div>
             </center>
-          </div>
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-      </div>
+          {/* </div> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+        {/* </div> */}
+      {/* </div> */}
     </React.Fragment>
   );
 };

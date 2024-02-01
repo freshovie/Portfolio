@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <React.Fragment>
         <div className="footer">
-          <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-          <div className="col-sm-12 col-md-12 col-lg-10">
+          {/* <div className="row"> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-10"> */}
             <center>
               <h2 style={{ color: "#7d7e7f", marginBottom: "10px" }}>
                 Get{" "}
@@ -25,7 +25,7 @@ const Footer = () => {
               <p style={{ color: "#7d7e7f", marginBottom: "1.5rem" }}>So that we can talk about...</p>
               <div
                 className="imgedit d-flex justify-content-around"
-                style={{ color: "#7d7e7f", fontSize: "30px", marginBottom: "1.5rem"}}
+                style={{ color: "#7d7e7f", fontSize: "50px", marginBottom: "1.5rem", gap: "20px", justifyContent: "space-between"}}
               >
                 <FontAwesomeIcon icon={faEnvelope} />
                 <FaBehance />
@@ -46,9 +46,9 @@ const Footer = () => {
               </p>
               </center>
             </div>
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-          </div>
-        </div>
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+          {/* </div> */}
+        {/* </div> */}
     </React.Fragment>
   );
 };

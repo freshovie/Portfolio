@@ -5,10 +5,10 @@ import { Cover1 } from "../assets/index";
 const Work = () => {
   return (
     <React.Fragment>
-      <div className="work">
-        <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-          <div className="col-sm-12 col-md-12 col-lg-10">
+      {/* <div className="work"> */}
+        {/* <div className="row"> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-10"> */}
             <h2 style={{ marginTop: "50px", marginBottom: "20px" }}>
               Selected{" "}
               <span style={{ color: "#e3e4e6", fontWeight: "600" }}>Works</span>
@@ -61,18 +61,19 @@ const Work = () => {
                     borderRadius: "10px",
                     borderColor: "#e3e4e6",
                     color: "#e3e4e6",
-                    border: "1px solid block",
+                    border: "0px solid block",
                     padding: "8px 16px 8px 8px",
+                    gap: "8px",
                   }}
                 >
                   VIEW WORK &gt;
                 </button>
               </div>
             </div>
-          </div>
-          <div className="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-      </div>
+          {/* </div> */}
+          {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
+        {/* </div> */}
+      {/* </div> */}
     </React.Fragment>
   );
 };
