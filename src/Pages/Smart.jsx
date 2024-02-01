@@ -25,7 +25,7 @@ const Smart = () => {
               SMART HOME APP
             </h5>
             <h3
-              style={{ width: "80%", fontSize: "30px", marginBottom: "20px" }}
+              style={{ width: "auto", fontSize: "30px", marginBottom: "20px" }}
             >
               Lorem ipsum dolor sit amet, consectetur{" "}
               <span

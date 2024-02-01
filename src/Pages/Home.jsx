@@ -13,19 +13,19 @@ const Home = () => {
             <center>
               <h2
                 style={{
-                  marginTop: "10rem",
+                  marginTop: "20rem",
                   fontSize: "3rem",
                   color: "7d7e82",
-                  width: "100%",
+                  width: "auto",
                 }}
               >
                 I'm a designer specialising in{" "}
-                <span style={{ color: "#e3e4e6" }}>UI/UX</span> and{" "}
+                <span style={{ color: "#e3e4e6" }}>UI/UX</span> and{" "} <br />
                 <span style={{ color: "#e3e4e6" }}>Interaction Design</span>
               </h2>
               <div
                 className="downways"
-                style={{ color: "#e3e4e6", marginTop: "15rem" }}
+                style={{ color: "#e3e4e6", marginTop: "28rem" }}
               >
                 <FontAwesomeIcon icon={faChevronDown} />
               </div>

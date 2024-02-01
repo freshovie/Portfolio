@@ -116,7 +116,7 @@
     display: flex;
     align-items: end;
     justify-content: space-between;
-    gap: 0rem;
+    gap: 10rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     img {
@@ -170,15 +170,10 @@
   }
 
   @media screen and (max-width: 995px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: auto;
   }
 }
 }
 
-.speed{
-  z-index: 1;
-  img{
-    z-index: 0;
-  }
-}
+

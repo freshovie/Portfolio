@@ -23,7 +23,7 @@ const Logo = () => {
                 </h5>
                 <h3
                   style={{
-                    width: "80%",
+                    width: "auto",
                     fontSize: "30px",
                     marginBottom: "20px",
                   }}

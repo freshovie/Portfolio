@@ -24,7 +24,7 @@ const Footer = () => {
               </h2>
               <p style={{ color: "#7d7e7f", marginBottom: "1.5rem" }}>So that we can talk about...</p>
               <div
-                className="imgedit d-flex justify-content-around"
+                className="imgedit d-flex justify-content-around align-items-center"
                 style={{ color: "#7d7e7f", fontSize: "50px", marginBottom: "1.5rem", gap: "20px", justifyContent: "space-between"}}
               >
                 <FontAwesomeIcon icon={faEnvelope} />

@@ -10,8 +10,8 @@ const Client = () => {
           {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
           {/* <div className="col-sm-12 col-md-12 col-lg-10"> */}
             <div className="speed">
-              <img src= { Background } alt="" />
-              <p
+              {/* <img src= { Background } alt="" /> */}
+              <p className="ml-0"
                 style={{
                   fontSize: "30px",
                   width: "70%",

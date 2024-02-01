@@ -9,8 +9,8 @@ const Navbar = () => {
       {/* <div className="row"> */}
         {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
         {/* <div className="col-sm-12 col-md-12 col-lg-10"> */}
-          <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a className="navbar-brand" href="h">
+          <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a className="navbar-brand ml-0" href="h">
               <img src={Logo} alt="" />
             </a>
             <button
