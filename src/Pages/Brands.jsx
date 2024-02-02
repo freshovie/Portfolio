@@ -10,7 +10,7 @@ const Brands = () => {
          {/* <div className="row"> */}
           {/* <div className="col-sm-12 col-md-12 col-lg-1"></div> */}
           {/* <div className="col-sm-12 col-md-12 col-lg-10"> */}
-            <div className="brands">
+            <div className="brands d-grid">
               <img src= {Airbnb} alt=""  />
              <img src= {Google} alt=""  /> 
               <img src= {Microsoft} alt=""  />

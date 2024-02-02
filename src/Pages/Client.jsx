@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.scss";
-import { Background } from "../assets";
 
 const Client = () => {
   return (
@@ -17,7 +16,7 @@ const Client = () => {
                   width: "70%",
                   marginBottom: "20px",
                   marginTop: "20px",
-
+                  color: "#6e6e6f"
                 }}
               >
                 Some of{" "}

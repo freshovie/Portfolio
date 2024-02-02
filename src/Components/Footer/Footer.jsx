@@ -1,8 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { FaBehance, FaDribbble, FaLinkedinIn } from "react-icons/fa";
+import { FaBehance, FaDribbble, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -23,15 +21,17 @@ const Footer = () => {
                 </span>
               </h2>
               <p style={{ color: "#7d7e7f", marginBottom: "1.5rem" }}>So that we can talk about...</p>
+              <center>
               <div
-                className="imgedit d-flex justify-content-around align-items-center"
-                style={{ color: "#7d7e7f", fontSize: "50px", marginBottom: "1.5rem", gap: "20px", justifyContent: "space-between"}}
+                className="imgedit align-items-center"
+                style={{ color: "#7d7e7f", fontSize: "40px", marginBottom: "1.5rem", }}
               >
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FaEnvelope />
                 <FaBehance />
                 <FaDribbble />
                 <FaLinkedinIn />
               </div>
+              </center>
               <p style={{ color: "#7d7e7f", marginBottom: "10px" }}>
                 Made with &#10083; by {"  "}
                 <span

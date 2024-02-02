@@ -15,7 +15,7 @@ const Home = () => {
                 style={{
                   marginTop: "20rem",
                   fontSize: "3rem",
-                  color: "7d7e82",
+                  color: "#6e6e6f",
                   width: "auto",
                 }}
               >

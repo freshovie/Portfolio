@@ -26,6 +26,7 @@ const Plant = () => {
                     width: "auto",
                     fontSize: "30px",
                     marginBottom: "20px",
+                  color: "#6e6e6f"
                   }}
                 >
                   Lorem ipsum dolor sit amet, consectetur{" "}

@@ -2,6 +2,10 @@
 
 .footer{
     margin-top: 5rem;
-    // background-color: black;
-    
+    @media screen and (max-width: 995px) {
+        .imgedit{
+            justify-content: space-evenly;
+            display: flex;
+        }
+    }
 }

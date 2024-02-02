@@ -26,6 +26,7 @@ const Aboutme = () => {
                     width: "auto",
                     fontSize: "30px",
                     marginBottom: "20px",
+                    color: "#6e6e6f",
                   }}
                 >
                   I am a UI/UX designer who is passionate about creating{" "}
